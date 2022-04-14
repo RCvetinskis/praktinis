@@ -62,36 +62,27 @@
       justify-content:space-evenly;
       align-items: center;
     }
-    // header-2
+ 
     .header-2 {
       height: 350px;
       background-position: 100%;
     }
-// Footer
+    
     .icons {
       display: flex;
       justify-content: flex-end!important;
-        i {
-          margin: 20px;
-        }
-     
-    } 
-    
-  .text {
-    position: relative;
-     right: 20%;
-     top: 30%;
-   }
-    footer ul {
+    }
+
+   footer ul {
      display: flex;
      justify-content: flex-start!important;
-     gap: 20px;
-     position: relative;
-     top: 30%;
-     left: 20%;
+    gap: 20px;
+  
      
    }
- 
+   .text{
+     text-align: start!important;
+  }
     
    
   }
