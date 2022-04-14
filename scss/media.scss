@@ -71,17 +71,24 @@
     .icons {
       display: flex;
       justify-content: flex-end!important;
+      width: 100%;
+      margin-bottom: 100px!important;
     }
 
    footer ul {
      display: flex;
      justify-content: flex-start!important;
+     align-items: center;
     gap: 20px;
+    width: 70%;
+    margin: 10px auto;
   
      
    }
    .text{
      text-align: start!important;
+     width: 70%;
+     margin: 0 auto;
   }
     
    
