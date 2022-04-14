@@ -1,0 +1,76 @@
+nav {
+    background: $nav-bg-color;
+    line-height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+     ul {
+       display: flex;
+       justify-content: space-between ;
+        align-items: center;
+       list-style: none;
+       margin: 0 50px;
+     }
+       .business {
+       text-decoration: none;
+       color: black;
+       font-size: 1.5em;
+       position: relative;
+       &:hover {
+         cursor: pointer;
+         color: $nav-button;
+       
+       }
+         &::before {
+           position: absolute;
+           content: "";
+           right: 24%;
+           top: 0;
+           height: 8%;
+           width: 50%;
+           background-color: $nav-button;
+          transition: transform 0.3s;
+       
+   
+            
+         }
+         &:hover::before {
+           transform: scale(2)
+         
+         }
+   
+         &::after {
+           position: absolute;
+           content: "";
+           right: 24%;
+           bottom: 0;
+           height: 8%;
+           width: 50%;
+           background-color: $nav-button;
+          transition: transform 0.3s;
+   
+            
+         }
+         &:hover::after {
+           transform: scale(2)
+         
+         }
+     }
+    button {
+      background:$nav-button;
+      color: white;
+      padding: 10px;
+      width: 90px;
+      border-radius: 8px;
+       border: $nav-button;
+       font-size: 1em;
+       &:hover {
+         cursor: pointer;
+         background: $nav-bg-color;
+         color: $nav-button;
+   
+       }
+     }
+    
+   }

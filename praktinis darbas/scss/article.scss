@@ -1,0 +1,28 @@
+article {
+    background:  $article-bg-color;
+     
+  
+  .article-responsive {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.3em;
+     i {
+       
+       font-size: 5em;
+       color: $nav-button;
+       margin-bottom: 20px;
+     }
+      .fa-solid {
+          margin-top: 30px;
+      }
+     h2 { font-size: 2.3em;
+      margin-bottom: 20px;
+        
+     }
+     p {
+        color: $paragraphs-color;
+        
+        }
+    
+  }
+  }
